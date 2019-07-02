@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "highlight.js": "^9.15.8",
+    "markdown-it-container": "^2.0.0",
     "vue": "^2.6.10",
+    "vue-markdown-loader": "^2.4.1",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
