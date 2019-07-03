@@ -3,7 +3,7 @@
     <div class="main-header-logo">
       <img src="@/assets/images/logo.png"/>
     </div>
-    <div class="main-header-title">ZHero</div>
+    <div class="main-header-title" @click="$router.push('/')">ZHero</div>
     <ul class="main-header-nav">
       <li class="active">组件</li>
     </ul>
@@ -58,6 +58,7 @@ export default {
     display: inline-block;
     padding-left: 75px;
     font-weight: bold;
+    cursor: pointer;
   }
   .main-header-nav {
     margin: 0;

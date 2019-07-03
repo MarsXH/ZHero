@@ -30,18 +30,18 @@ export default {
       navList: [
         {
           name: '更新日志',
-          path: '/component'
+          path: '/component/changeLog'
         },
         {
           name: '开发指南',
           children: [
             {
               name: '安装',
-              path: '/installation'
+              path: '/component/installation'
             },
             {
               name: '快速上手',
-              path: '/quickstart'
+              path: '/component/quickstart'
             }
           ]
         },
@@ -91,10 +91,12 @@ export default {
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding-left: 20px;
   ul {
     width: 250px;
     margin: 0;
     padding: 0;
+    list-style: none;
     .nav-item {
       a {
         font-size: 16px;

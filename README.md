@@ -1,4 +1,6 @@
-# zhero
+# ZHero
+
+> This is an UI framework for Vue.
 
 ## Project setup
 ```

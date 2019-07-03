@@ -7,7 +7,7 @@
     <h2 class="subtitle">This is an UI framework for Vue.</h2>
     <!-- <h2 class="subtitle">This is an open source UI framework for Vue.</h2> -->
     <div class="links">
-      <router-link to="/component">Documentation</router-link>
+      <router-link to="/component/installation">Documentation</router-link>
       <a
         href="https://github.com/nuxt/nuxt.js"
         target="_blank">

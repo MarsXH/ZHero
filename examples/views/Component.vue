@@ -38,7 +38,7 @@ export default {
     left: 0;
     right: 0;
     .main-content {
-      padding: 0 84px 140px 330px;
+      padding: 0 84px 140px 300px;
       min-height: 500px;
       overflow: hidden;
     }

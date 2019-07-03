@@ -16,9 +16,19 @@ export default new Router({
       component: r => require.ensure([], () => r(require('./views/Component.vue'))),
       children: [
         {
-          path: '/',
+          path: 'changeLog',
+          name: 'changeLog',
+          component: r => require.ensure([], () => r(require('./views/ChangeLog.vue')))
+        },
+        {
+          path: 'installation',
           name: 'installation',
           component: r => require.ensure([], () => r(require('./docs/installation.md')))
+        },
+        {
+          path: 'quickstart',
+          name: 'quickstart',
+          component: r => require.ensure([], () => r(require('./docs/quickstart.md')))
         },
         {
           path: 'btn',
