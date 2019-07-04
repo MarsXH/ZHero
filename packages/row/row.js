@@ -21,7 +21,7 @@ export default {
     style() {
       const ret = {};
       if (this.gutter) {
-        // 为了设置两边margin
+        // 当有间隔时，为了设置两边margin相等使其居中
         ret.marginLeft = `-${this.gutter / 2}px`;
         ret.marginRight = ret.marginLeft;
       }

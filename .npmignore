@@ -1,7 +1,13 @@
-.DS_Store
+# 忽略目录
+examples/
+packages/
+public/
+build/
+# 忽略指定文件
+vue.config.js
+babel.config.js
+*.map
 node_modules
-/lib
-
 # local env files
 .env.local
 .env.*.local
@@ -18,4 +24,10 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw*
+
+dist/
+.browserslistrc
+.editorconfig
+.eslintrc.js
+postcss.config.js

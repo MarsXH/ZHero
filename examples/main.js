@@ -1,15 +1,20 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import install from '../packages/index'
+// import install from '../packages/index'
 import hljs from 'highlight.js'
 import DemoBlock from './components/demo-block.vue'
 import 'highlight.js/styles/color-brewer.css'
 import '@/assets/styles/common.less'
 import '@/assets/styles/md.less'
 
+// 导入组件库
+import ZHeroUI from './../packages/index'
+// 注册组件库
+Vue.use(ZHeroUI)
+
 Vue.component('demo-block', DemoBlock)
-install(Vue)
+// install(Vue)
 
 Vue.config.productionTip = false
 
