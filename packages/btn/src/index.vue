@@ -8,7 +8,7 @@ export default {
   name: 'ZBtn'
 }
 </script>
-<style>
+<style scoped>
 .z-btn {
   border: 1px solid #41a259;
   background-color: #41a259;
