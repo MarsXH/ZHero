@@ -9,12 +9,12 @@
     <div class="links">
       <router-link to="/component/installation">Documentation</router-link>
       <a
-        href="https://github.com/nuxt/nuxt.js"
+        href="https://github.com/MZ8023/ZHero"
         target="_blank">
         GitHub
       </a>
       <a
-        href="https://github.com/nuxt/nuxt.js"
+        href="https://www.npmjs.com/package/zhero-ui"
         target="_blank">
         NPM
       </a>

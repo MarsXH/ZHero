@@ -1,10 +1,10 @@
 {
   "name": "zhero-ui",
-  "version": "0.1.9",
+  "version": "0.3.0",
   "description": "This is an UI framework for Vue.",
   "main": "lib/zhero-ui.umd.min.js",
   "style": "lib/zhero-ui.css",
-  "keyword": "vue ui framework",
+  "keywords": ["vue", "ui", "framework"],
   "private": false,
   "files": [
     "packages",
